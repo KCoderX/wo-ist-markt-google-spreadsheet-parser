@@ -1,0 +1,70 @@
+{
+  "crs": {
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    },
+    "type": "name"
+  },
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "6.909382899999969",
+          "51.2220002"
+        ]
+      },
+      "properties": {
+        "title": "Alt-Erkrath",
+        "location": "Bavierstraße ",
+        "opening_hours": "Fr 08:00-13:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "6.955087999999932",
+          "51.20722600000001"
+        ]
+      },
+      "properties": {
+        "title": "Hochdahl",
+        "location": "Hochdahler Markt",
+        "opening_hours": "Th 08:00-18:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "6.9138470000000325",
+          "51.200151"
+        ]
+      },
+      "properties": {
+        "title": "Unterfeldhaus",
+        "location": "Neuenhausplatz",
+        "opening_hours": "We 08:00-13:30"
+      }
+    },
+
+  ],
+  "metadata": {
+    "data_source": {
+      "title": "Daten von der Stadt Erkrath",
+      "url": "https://www.erkrath.de/index.phtml?object=tx%7C1630.4.1&ModID=10&FID=1630.451.1&sNavID=1630.5&La=1"
+    },
+    "map_initialization": {
+      "coordinates": [
+        6.907347299999969,
+        51.2213125
+      ],
+      "zoom_level": 13
+    }
+  }
+}
